@@ -1,7 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
-
 type Meta =
   | {
       name: string;
@@ -11,14 +10,12 @@ type Meta =
       property: string;
       content: any;
     };
-
 interface Props {
   description?: string;
   lang?: string;
   meta?: Meta[];
   title: string;
 }
-
 const SEO: React.FC<Props> = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -33,9 +30,7 @@ const SEO: React.FC<Props> = ({ description, lang, meta, title }) => {
       }
     `
   );
-
   const metaDescription = description || site.siteMetadata.description;
-
   return (
     <Helmet
       htmlAttributes={{
