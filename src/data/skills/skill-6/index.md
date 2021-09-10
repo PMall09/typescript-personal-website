@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Gatsby'
+title: 'Linux'
 percentage: 68
 ---
