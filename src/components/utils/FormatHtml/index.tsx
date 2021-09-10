@@ -1,9 +1,7 @@
 import React, { ReactNode } from 'react';
-
 interface Props {
   content: any;
 }
-
 const FormatHtml: React.FC<Props> = ({ content }) => (
   <span
     className="format-html"
@@ -12,5 +10,4 @@ const FormatHtml: React.FC<Props> = ({ content }) => (
     }}
   />
 );
-
 export default FormatHtml;
