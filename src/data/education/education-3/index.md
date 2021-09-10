@@ -1,11 +1,11 @@
 ---
 category: 'education'
-university: 'DAV Public School, SECL, Vasant Vihar, Bilaspur, India'
-degree: 'Higher Secondary Education'
-startDate: 'Apr 2013'
-endDate: 'May 2015'
+university: 'IIIT Naya Raipur, India'
+degree: 'Bachelors in Electronics and Communication Engineering'
+startDate: 'Jul 2016'
+endDate: 'Jul 2020'
 ---
 
-<li>CBSE Boards with 88.41% <br/>
-<li>Computer Science, Mathematics, Physics, Chemistry and English Literature  
+<li>CGPA: 8.34 <br/>
+<li>Courses: Data Structures and Algorithm, Computer Networks, Computer Organization, Database Management System, Information Theory and Coding, Object Oriented Methodology, Cyptography, Data Mining, Machine Learning, Artificial Intelligence, Big Data.  
 
