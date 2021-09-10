@@ -75,13 +75,10 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-
   const projects = resProject.data.allMarkdownRemark.edges;
-  
   projects.forEach((project, index) => {
     const previous = index === projects.length - 1 ? null : projects[index + 1].node;
     const next = index === 0 ? null : projects[index - 1].node;
-
     createPage({
       path: `${project.node.fields.slug}`,
       component: projectPostTemplate,
@@ -92,16 +89,11 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     });
   });
-
 };
-
 // exports.createPages = async ({ graphql, actions }) => {
 //   const { createPage } = actions;
-
 //   //generate pages for projects
-
 //   const projectPostTemplate = path.resolve(`src/templates/ProjectPost/index.tsx`);
-
 //   const res2 = await graphql(`
 //     query {
 //       allMarkdownRemark(
