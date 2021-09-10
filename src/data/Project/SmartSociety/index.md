@@ -3,7 +3,7 @@ category: 'project'
 cover: './cover.png'
 title: 'Smart Society'
 description: 'A secure & efficient mutual authentication protocol using PUFs for smart societies with performance & security analysis via Scyther simulation.'
-date: '2020-08-06'
+date: '2019-12-04'
 tags: ['PUF','AKA Protocol', 'SCYTHER', 'Python']
 published: true
 ---
