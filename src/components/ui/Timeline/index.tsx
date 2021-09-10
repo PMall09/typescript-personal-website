@@ -1,7 +1,5 @@
 import React from 'react';
-
 import * as Styled from './styles';
-
 interface Props {
   title: string;
   subtitle: string;
@@ -9,9 +7,7 @@ interface Props {
   startDate: string;
   endDate: string;
 }
-
 function isEndDateEmpty(startDate:string, endDate:string){
-
   if(endDate===""){
     return (
       <Styled.Date> 
@@ -27,7 +23,6 @@ function isEndDateEmpty(startDate:string, endDate:string){
     );
   }
 }
-
 const Timeline: React.FC<Props> = ({ title, subtitle, content, startDate, endDate }) => (
   <Styled.Timeline>
     <Styled.Point />
@@ -42,5 +37,4 @@ const Timeline: React.FC<Props> = ({ title, subtitle, content, startDate, endDat
     <Styled.Content>{content}</Styled.Content>
   </Styled.Timeline>
 );
-
 export default Timeline;
