@@ -8,24 +8,18 @@ const Footer: React.FC = () => (
   <Styled.Footer>
     <Container>
       <Styled.Links>
-        <Styled.Link href="https://github.com/verma-ananya" rel="noreferrer noopener" target="_blank">
+        <Styled.Link href="https://github.com/PMall09" rel="noreferrer noopener" target="_blank">
           GitHub
         </Styled.Link>
-        <Styled.Link href="https://www.linkedin.com/in/ananya-verma-548626b6/" rel="noreferrer noopener" target="_blank">
+        <Styled.Link href="https://www.linkedin.com/in/priyankamall" rel="noreferrer noopener" target="_blank">
           LinkedIn
         </Styled.Link>
-        <Styled.Link href="https://twitter.com/ananyav06" rel="noreferrer noopener" target="_blank">
-          Twitter
+        <Styled.Link href="https://scholar.google.com/citations?hl=en&user=Y2xabEMAAAAJ" rel="noreferrer noopener" target="_blank">
+          Google Scholar
         </Styled.Link>
-        {/* <Styled.Link href="https://www.hackerrank.com/lincolnav829" rel="noreferrer noopener" target="_blank">
-          Hackerrank
-        </Styled.Link> */}
-        <Styled.Link href="https://www.instagram.com/ms.vama/" rel="noreferrer noopener" target="_blank">
+        <Styled.Link href="https://www.instagram.com/priyanka.m09" rel="noreferrer noopener" target="_blank">
           Instagram
-        </Styled.Link>
-        <Styled.Link href="https://www.facebook.com/ananya.verma06" rel="noreferrer noopener" target="_blank">
-          Facebook
-        </Styled.Link>
+         </Styled.Link>
       </Styled.Links>
     </Container>
   </Styled.Footer>
