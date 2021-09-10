@@ -1,9 +1,9 @@
 ---
 category: 'education'
-university: 'Columbia University'
-degree: 'Bachelor'
-startDate: 'Oct 2005'
-endDate: 'Jul 2008'
+university: 'DAV Public School, SECL, Vasant Vihar, Bilaspur, India'
+degree: 'Secondary Education'
+startDate: 'Jan 2000'
+endDate: 'Jan 2013'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<li>CBSE Boards with 10.0 CGPA
