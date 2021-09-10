@@ -1,9 +1,10 @@
 ---
 category: 'education'
-university: 'Stanford University'
-degree: 'Master of Science'
-startDate: 'Oct 2008'
-endDate: 'Jul 2010'
+university: 'DAV Public School, SECL, Vasant Vihar, Bilaspur, India'
+degree: 'Higher Secondary Education'
+startDate: 'Apr 2013'
+endDate: 'May 2015'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborist.
+<li>CBSE Boards with 88.41% <br/>
+<li>Computer Science, Mathematics, Physics, Chemistry and English Literature  
