@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Illustrator'
+title: 'Ruby on Rails'
 percentage: 41
 ---
