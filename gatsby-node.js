@@ -1,6 +1,5 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
-
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
@@ -121,13 +120,10 @@ exports.createPages = async ({ graphql, actions }) => {
 //       }
 //     }
 //   `);
-
 //   const projects = res2.data.allMarkdownRemark.edges;
-  
 //   projects.forEach((project, index) => {
 //     const previous = index === projects.length - 1 ? null : projects[index + 1].node;
 //     const next = index === 0 ? null : projects[index - 1].node;
-
 //     createPage({
 //       path: `${project.node.fields.slug}`,
 //       component: projectPostTemplate,
@@ -138,9 +134,6 @@ exports.createPages = async ({ graphql, actions }) => {
 //       }
 //     });
 //   });
-
 // };
-
-
 // filter: { frontmatter: { category: { eq: "blog" } } }
 // filter: { frontmatter: { category: { eq: "project" } } }
