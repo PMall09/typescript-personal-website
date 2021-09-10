@@ -1,13 +1,10 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Slider from 'react-slick';
-
 import './slick.css';
-
 interface Props {
   children: React.ReactNode;
 }
-
 const settings = {
   autoplay: true,
   autoplaySpeed: 5000,
@@ -18,7 +15,6 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1
 };
-
 const Carousel: React.FC<Props> = ({ children }) => (
   <>
     <Helmet>
