@@ -1,11 +1,11 @@
 ---
 category: 'experiences'
-company: 'Aizoon Reply'
-position: 'UI/UX Designer'
-startDate: 'Jan 2011'
-endDate: 'May 2013'
+company: 'PathCheck Foundation'
+position: 'Research Student and Open Source Contributor'
+startDate: 'Aug 2021'
+endDate: 'Present'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<li>Under the supervision of Dr. Ramesh Raskar and Rohan Sukumaran, an initiative by MIT Media Lab.<br /> 
+<li>Research with teams supporting COVID-19 Vaccination.<br /> 
+<li>Worked on privacy research tracking issues that have arisen during the pandemic.
