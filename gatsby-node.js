@@ -36,10 +36,8 @@ exports.createPages = async ({ graphql, actions }) => {
             frontmatter {
               title
             }
-          }
-        }
-      }
-    }
+          }}
+      }}
   `);
    //generate pages for posts
   const posts = resBlog.data.allMarkdownRemark.edges;
