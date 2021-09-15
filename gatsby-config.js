@@ -61,5 +61,6 @@ module.exports = {
         purgeOnly: [`src/assets/styles/global.css`]
       }
     }
+    
   ]
 };
